@@ -84,45 +84,45 @@ class _RegisterScreenState extends State<RegisterScreen> {
               const SizedBox(
                 height: 10,
               ),
-              Center(
-                child: Stack(
-                  alignment: AlignmentDirectional.bottomEnd,
-                  children: [
-                    ClipOval(
-                        child: _imagePicker == null
-                            ? const Image(
-                                image: AssetImage('images/freelancer.png'),
-                              )
-                            : Image.file(File(_pickedImage!.path))
-                        // Image(
-                        //     image: NetworkImage(
-                        //         'https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQ4rsSzLimlQyniEtUV4-1raljzFhS45QBeAw&usqp=CAU'),
-                        //     fit: BoxFit.cover,
-                        //     width: 120,
-                        //     height: 120,
-                        //   )
+              // Center(
+              //   child: Stack(
+              //     alignment: AlignmentDirectional.bottomEnd,
+              //     children: [
+              //       ClipOval(
+              //           child: _imagePicker == null
+              //               ? const Image(
+              //                   image: AssetImage('images/freelancer.png'),
+              //                 )
+              //               : Image.file(File(_pickedImage.path))
+              //           // Image(
+              //           //     image: NetworkImage(
+              //           //         'https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQ4rsSzLimlQyniEtUV4-1raljzFhS45QBeAw&usqp=CAU'),
+              //           //     fit: BoxFit.cover,
+              //           //     width: 120,
+              //           //     height: 120,
+              //           //   )
 
-                        ),
-                    ClipOval(
-                      child: Container(
-                        padding: const EdgeInsets.all(3),
-                        color: Colors.white,
-                        child: ClipOval(
-                          child: Container(
-                            padding: const EdgeInsets.all(8),
-                            color: primaryColor,
-                            child: const Icon(
-                              Icons.camera_alt_outlined,
-                              size: 18,
-                              color: Colors.white,
-                            ),
-                          ),
-                        ),
-                      ),
-                    ),
-                  ],
-                ),
-              ),
+              //           ),
+              //       ClipOval(
+              //         child: Container(
+              //           padding: const EdgeInsets.all(3),
+              //           color: Colors.white,
+              //           child: ClipOval(
+              //             child: Container(
+              //               padding: const EdgeInsets.all(8),
+              //               color: primaryColor,
+              //               child: const Icon(
+              //                 Icons.camera_alt_outlined,
+              //                 size: 18,
+              //                 color: Colors.white,
+              //               ),
+              //             ),
+              //           ),
+              //         ),
+              //       ),
+              //     ],
+              //   ),
+              // ),
               const SizedBox(
                 height: 10,
               ),

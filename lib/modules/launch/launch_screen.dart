@@ -13,7 +13,7 @@ class _LaunchScreenState extends State<LaunchScreen> {
     super.initState();
 
     Future.delayed(const Duration(seconds: 5), () {
-      Navigator.pushReplacementNamed(context, '/on_boarding_screen');
+      // Navigator.pushReplacementNamed(context, '/on_boarding_screen');
     });
   }
 
@@ -21,9 +21,9 @@ class _LaunchScreenState extends State<LaunchScreen> {
   Widget build(BuildContext context) {
     return const Scaffold(
         backgroundColor: Colors.white,
-        body:  Center(
+        body: Center(
           child: Image(
-            image: AssetImage('images/logo.png'),
+            image: AssetImage('images/talent-logo.png'),
             // height: double.infinity,
             // width: double.infinity,
             fit: BoxFit.cover,

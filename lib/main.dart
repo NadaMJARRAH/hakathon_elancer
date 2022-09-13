@@ -2,8 +2,10 @@ import 'package:flutter/material.dart';
 import 'package:flutter_localizations/flutter_localizations.dart';
 import 'package:hakathon_elancer/modules/auth/login_screen.dart';
 import 'package:hakathon_elancer/modules/auth/register_screen.dart';
+import 'package:hakathon_elancer/modules/home/home_screen.dart';
 import 'package:hakathon_elancer/modules/launch/launch_screen.dart';
 import 'package:hakathon_elancer/modules/launch/onboarding_screen.dart';
+import 'package:hakathon_elancer/modules/profile/add_project.dart';
 import 'package:hakathon_elancer/modules/profile/edit_profile.dart';
 import 'package:hakathon_elancer/prefs/shared_pref_controller.dart';
 
@@ -31,14 +33,15 @@ class MyApp extends StatelessWidget {
       ],
       locale: const Locale('ar'),
       debugShowCheckedModeBanner: false,
-      initialRoute: '/launch_screen',
+      initialRoute: '/add_project_screen',
       routes: {
         '/launch_screen': (context) => const LaunchScreen(),
         '/on_boarding_screen': (context) => const OnBoardingScreen(),
         '/login_screen': (context) => const LoginScreen(),
         '/register_screen': (context) => const RegisterScreen(),
         '/edit_profile_screen': (context) => const EditProfileScreen(),
-        // '/home_screen': (context) => const Home(),
+        '/home_screen': (context) => const HomeScreen(),
+        '/add_project_screen': (context) => const AddProfileScreen(),
       },
     );
   }

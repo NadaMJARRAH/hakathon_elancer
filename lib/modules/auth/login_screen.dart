@@ -100,7 +100,11 @@ class _LoginScreenState extends State<LoginScreen> {
             ),
             const SizedBox(height: 20),
             CustomButton(
-                onPress: () {}, text: 'تسجيل الدخول', color: primaryColor),
+                onPress: () {
+                  Navigator.pushNamed(context, '/home_screen');
+                },
+                text: 'تسجيل الدخول',
+                color: primaryColor),
             // ElevatedButton(
             //   onPressed: () {},
             //   //  _performLogin(),
