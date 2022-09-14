@@ -16,7 +16,7 @@ class HomeSection extends StatelessWidget {
     return Row(
       children: [
         Padding(
-          padding:  const EdgeInsets.symmetric(horizontal: 10),
+          padding: const EdgeInsets.symmetric(horizontal: 10),
           child: Text(
             title,
             style: GoogleFonts.nunito(
@@ -29,7 +29,7 @@ class HomeSection extends StatelessWidget {
         TextButton(
           onPressed: onPressed,
           child: Text(
-            'المزيد',
+            'اضافة',
             style: GoogleFonts.nunito(),
           ),
         )

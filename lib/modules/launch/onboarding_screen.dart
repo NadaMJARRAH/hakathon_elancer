@@ -43,20 +43,20 @@ class _OnBoardingScreenState extends State<OnBoardingScreen> {
               children: const [
                 OnBoardingContent(
                   imageUrl: 'onboarding1',
-                  title: 'Innovative Solutions',
+                  title: 'واجهة سهلة الاستخدام',
                   subTitle:
-                      'Lorem ipsum dolor sit amet, consectetur \n adipisicing elit, sed do eiusmod tempor \nincididunt ut labore et dolore.',
+                      'يستطيع المستقلون والمستخدمون من خارج التطبيق التعامل مع الواجهة  بحرية وسلاسة دون أي تعقيدات.',
                 ),
                 OnBoardingContent(
                     imageUrl: 'onboarding2',
-                    title: 'Integrated teamwork',
+                    title: 'دورات مجانية',
                     subTitle:
-                        'Lorem ipsum dolor sit amet, consectetur \nadipisicing elit, sed do eiusmod.'),
+                        'من خلال التطبيق يستطيع المستقلون التعرف على  أفضل الدورات التدريبية المتاحة والتي تخدم تنمية مهاراتهم في مجال العمل الحر.'),
                 OnBoardingContent(
                     imageUrl: 'onboarding3',
-                    title: 'Excellent developer',
+                    title: 'مشاركة الأعمال السابقة',
                     subTitle:
-                        'Lorem ipsum dolor sit amet, consectetur \nadipisicing elit, sed do eiusmod tempor \nincididunt ut labore et dolore.')
+                        'من خلال تالنت جرو يستطيع المستقلون التسويق لمهاراتهم من خلال مشاركة أعمالهم وانجازاتهم وتجاربهم السابقة.')
               ],
             ),
           ),

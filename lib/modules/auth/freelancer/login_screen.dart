@@ -56,12 +56,17 @@ class _LoginScreenState extends State<LoginScreen> {
         child: Column(
           crossAxisAlignment: CrossAxisAlignment.start,
           children: [
-            const Center(
-              child: Image(
-                image: AssetImage('images/logo.png'),
-                height: 200,
-                width: 200,
-                fit: BoxFit.cover,
+            InkWell(
+              onTap: () {
+                Navigator.pushNamed(context, '/admin_login_screen');
+              },
+              child: const Center(
+                child: Image(
+                  image: AssetImage('images/talent-logo.png'),
+                  height: 200,
+                  width: 200,
+                  fit: BoxFit.cover,
+                ),
               ),
             ),
             Padding(
